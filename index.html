@@ -4,12 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>
-        Titulo
-    </h1>
+
+    <header>
+        <nav>
+        <img id="logo" src="img/logo.png" alt="logo">
+       <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+    </nav>
+    </header>
+    <main>
+        <article class="ventanaPrincipal"></article>
+        <article class="modal-contenedor">
+            <div class="modal-carrito">
+                <h3>Carrito</h3>
+                <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+                <div id="ventanaSecundaria"></div>
+                <p >Precio total: $<span id="precioTotal">0</span></p>
+                <p class="precios">➜ 25% OFF EFECTIVO: $<span id="precioefectivo">0</span></p>
+                <p class="precios">➜ 3 CUOTAS SIN INTERÉS: 3x $<span id="precio3cuotas">0</span></p>
+                <button id="vaciar-carrito" onclick="vaciarCarrito()" class="boton-agregar">Vaciar carrito</button>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <i class="fa-regular fa-credit-card">Aceptamos tarjetas</i>
+        <i class="fa-solid fa-truck">Envios a todo el pais</i>
+    </footer>
+    <script src="https://kit.fontawesome.com/a5f76241b6.js" crossorigin="anonymous"></script>
+    
     <script src="script.js"></script>
+    <script src="modal.js"></script>
+ 
+    
 </body>
 </html>
