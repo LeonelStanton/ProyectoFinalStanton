@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "nombre": "Buzo de Algodon",
+      "precio": 4898,
+      "img": "buzoAlgodon.jpg"
+      
+    },
+    {
+      "id": 2,
+      "nombre": "Buzo Bordado",
+      "precio": 12320,
+      "img": "buzoBordado.jpg"
+     
+    },
+    {
+      "id": 3,
+      "nombre": "Buzos Frizados",
+      "precio": 7560,
+      "img": "buzoFrizado.jpg"
+      
+    },
+    {
+      "id": 4,
+      "nombre": "Jean",
+      "precio": 8680,
+      "img": "jean.jpg"
+      
+    },
+    {
+      "id": 5,
+      "nombre": "Jogger",
+      "precio": 10080,
+      "img": "jogger.jpg"
+      
+    },
+    {
+      "id": 6,
+      "nombre": "Jogger con Rotura",
+      "precio": 10080,
+      "img": "joggerCRotura.jpg"
+      
+    },
+    {
+      "id": 7,
+      "nombre": "Remera Glorius",
+      "precio": 4980,
+      "img": "remeraGlorius.jpg"
+     
+    },
+    {
+      "id": 8,
+      "nombre": "Remera Break",
+      "precio": 4980,
+      "img": "remeraBreak.jpg"
+      
+    },
+    {
+      "id": 9,
+      "nombre": "Remera Chill",
+      "precio": 4980,
+      "img": "remeraChill.jpg"
+      
+    }
+]
