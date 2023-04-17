@@ -27,6 +27,9 @@ function renderProductos() {
        </div>
        </div>`;
       });
+    })
+    .catch(() => {
+      console.log("No se cargaron los productos");
     });
   activarBotones();
 }
@@ -125,7 +128,6 @@ function vaciarCarrito() {
   carrito.length = 0;
   localStorage.setItem("carrito", JSON.stringify(carrito));
   renderBotonCarrito();
-  preciototal();
   renderCarrito();
 }
 
@@ -136,7 +138,6 @@ function eliminarDelCarrito(prodId) {
   localStorage.setItem("carrito", JSON.stringify(carrito));
   avisoProdEliminado();
   renderBotonCarrito();
-  preciototal();
   renderCarrito();
 }
 
