@@ -6,13 +6,20 @@ const modalCarrito = document.getElementsByClassName("modal-carrito")[0];
 botonAbrir.addEventListener("click", () => {
   contenedorModal.classList.toggle("modal-active");
 });
+
 botonCerrar.addEventListener("click", () => {
-  contenedorModal.classList.toggle("modal-active");
+  setTimeout(() => {
+    contenedorModal.classList.toggle("modal-active");
+  }, 400);
 });
 
-contenedorModal.addEventListener("click", (event) => {
-  contenedorModal.classList.toggle("modal-active");
+contenedorModal.addEventListener("click", () => {
+  setTimeout(() => {
+     contenedorModal.classList.toggle("modal-active");
+  }, 400);
 });
+
 modalCarrito.addEventListener("click", (event) => {
   event.stopPropagation(); 
 });
+

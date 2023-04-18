@@ -144,7 +144,7 @@ function eliminarDelCarrito(prodId) {
 function avisoProdEliminado() {
   Toastify({
     text: "El producto fue eliminado correctamente",
-    duration: 1500,
+    duration: 800,
     newWindow: true,
     close: true,
     gravity: "top",

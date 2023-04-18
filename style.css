@@ -84,8 +84,8 @@ nav {
 }
 
 .containFotosCarrito{
-width: 3.5rem;
-height: 5rem;
+width: 5%;
+height: 7.5%;
 }
 
 .fotoscarrito{
@@ -177,35 +177,39 @@ margin-top: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all .5s;
+    transition: opacity .6s .9s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+    pointer-events: none;
     opacity: 0;
-    visibility: hidden;
     z-index: 3;
 }
 
 .modal-active {
     opacity: 1;
-    visibility: visible;
+    pointer-events: unset; 
+    transition: opacity .6s;
+    --transform: translateY(0);
+    --transition: transform .8s .8s;
+    
 }
 
 
 .modal-carrito {
     position: relative;
     background-color:white;
-    min-width: 700px;
+    width: 60%;
     padding: 20px;
-    transition: all .5s;
     border-radius: 5px;
     border-width: 2px;
     border-style: solid;
     border-color:#666;
     z-index: 4;
+    transform: var(--transform);
+    transition:var(--transition);
+  
 }
 
-
-.modal-active .modal-carrito {
-    margin-top: 0;
-}
 
 .modal-carrito h3 {
     display: block;
@@ -226,13 +230,13 @@ margin-top: 15px;
 }
 .modal-carrito #carritoCerrar:hover {
     cursor: pointer;
+    color: #e2e2e2;
 }
 .modal-carrito #carritoCerrar:focus {
     outline: none;
 }
 .modal-carrito .precioProducto {
     padding-top: 10px;
-    
 }
 
 .productoEnCarrito {
@@ -240,6 +244,7 @@ margin-top: 15px;
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
     margin: 5px 0;
+    height: 3%;
     padding: 5px 10px;
     display: flex;
     align-items: center;
@@ -281,8 +286,6 @@ footer{
 } 
 
 .fa-credit-card{
-    display: flex;
-    
     width: 10rem;
 }
 
