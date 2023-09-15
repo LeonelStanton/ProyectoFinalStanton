@@ -1,4 +1,4 @@
-Ecommerce realizado a base de Html, Css y Javascript Vanilla. Incluye almacenamiento de datos en Local Storage.
+Ecommerce con datos persistenes realizado a base de Html, Css y Javascript Vanilla.
 
 # Librerias Utilizadas
 - Toastify
