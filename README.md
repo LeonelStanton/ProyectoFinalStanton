@@ -1,4 +1,4 @@
-Ecommerce con datos persistenes realizado a base de Html, Css y Javascript Vanilla.
+Ecommerce con datos persistentes realizado a base de Html, Css y Javascript Vanilla.
 
 # Librerias Utilizadas
 - Toastify
